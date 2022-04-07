@@ -1,0 +1,224 @@
+//#include <stdio.h>
+//
+//int main(void)
+//{
+//	float f = 6.5;
+//	int num = 123;
+//	printf("수를 출력할 때는 따음표를 생략합니다.\n");
+//	printf("%d\n", num);
+//	printf("%f\n", f);
+//	return 0;
+//}
+//#include <stdio.h>   /1번
+//
+//int main(void)
+//{
+//	printf("My name is Hong");
+// return 0;
+//}
+
+//#include <stdio.h>
+//
+//int main(void)
+//{
+//	printf("My hometown\nFlowening mountain");
+//	return 0;
+//}
+
+//#include <stdio.h>
+//
+//int main(void)
+//{
+//	printf("TTTTTTTTTT\n");
+//	printf("TTTTTTTTTT\n");
+//	printf("     TT   \n");
+//	printf("     TT   \n");
+//	printf("     TT   \n");
+//	return 0;
+//}
+
+//#include <stdio.h>
+//
+//int main(void)
+//{
+//	int a, b, c, sum;
+//	a = 90;
+//	b = 80;
+//	c = 100;
+//	sum = a + b + c;
+//	printf("kor %d\nmat %d\neng %d\nsum %d", a, b, c, sum);
+//	return 0;
+//
+//}
+
+//#include <stdio.h>
+//
+//int main(void)
+//{
+//	printf("%15s %15s %15s\n", "Seoul", "10,312,545","+91,375");
+//	printf("%15s %15s %15s\n", "Pusan", "3,567,910", "+5,868");
+//	printf("%15s %15s %15s\n", "Incheon", "2,758,296", "+64,888");
+//	printf("%15s %15s %15s\n", "Daegu", "2,511,676", "+17,230");
+//	printf("%15s %15s %15s\n", "Gwangju", "1,454,636", "+29,774");
+//	return 0;
+//}
+
+//#include <stdio.h>
+//
+//int main(void)
+//{
+//	printf("hello \a world");
+//	return 0;
+//}
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <stdio.h>
+//
+//int main(void)
+//{
+//    int a, b;
+//    scanf("%d %d", &a, &b);
+//    printf("%d %d", b, a);
+//    return 0;
+//}
+//#include <stdio.h>
+//
+//int main(void)
+//{
+//	int a = 10, b = 20, c;
+//	c = b;
+//	b = a;
+//	a = c;
+//	printf("a = %d\nb = %d", a, b);
+//	return 0;
+//
+//
+//}
+//#include <stdio.h>
+//
+//int main(void)
+//{
+//	int a;
+//	a = -100;
+//	printf("%d", a);
+//	return 0;
+//}
+//#include <stdio.h>
+//
+//int main(void)
+//{
+//	int a;
+//	int b;
+//
+//	a = 10;
+//	b = 20;
+//	printf("%d %d \n", b, a);
+//	return 0;
+//}
+//#include <stdio.h>
+//
+//int main(void)
+//{
+//	int a, b;
+//	a = -1;
+//	b = 100;
+//	printf(" %d\n%d", a, b);
+//	return 0;
+//}
+//#include <stdio.h>
+//
+//int main(void)
+//{
+//	int a, b;
+//	a = 10;
+//	b = 20;
+//	printf("%d + %d = %d\n", a, b, a + b);
+//
+//	a = 30;
+//	b = 40;
+//	printf("%d + %d = %d\n", a, b, a + b);
+//	return 0;
+//}
+//#include <stdio.h>
+//
+//int main(void)
+//{
+//	int a, b;
+//	a = 55;
+//	b = 10;
+//	printf("%d - %d = %d\n", a, b, a - b);
+//
+//	a = 2008;
+//	b = 1999;
+//	printf("%d - %d = %d", a, b, a - b);
+//	return 0;
+//}
+//#include <stdio.h>
+//
+//int main(void)
+//{
+//	int r = 5;
+//	double pi = 3.14;
+//
+//	printf("원주 = %d * 2 * %f = %f\n", r, pi, r * 2 * pi);
+//	printf("넒이 = %d * %d * %f = %f\n", r, r, pi, r * r * pi);
+//	return 0;
+//}
+//#include <stdio.h>
+//
+//int main(void)
+//{
+//	int ch;
+//	double jo;
+//	ch = 49;
+//	jo = 0.268300;
+//	printf("%d * %lf = %lf", ch, jo, ch * jo);
+//}
+//#include <stdio.h>    //1번
+//
+//int main(void)
+//{
+//	int a, b, c;
+//	a = 10;
+//	b = 20;
+//	c = 30;
+//	printf("%d + %d = %d", a, b, c);
+//	return 0;
+//}
+//#include <stdio.h>    /2
+//int main(void)
+//{
+//	double a, b;
+//	a = 80.50;
+//	b = 22.34;
+//	printf("%10.2lf %10.2lf  %10.2lf", a, b, a + b);
+//	return 0;
+//}
+//#include <stdio.h>   //3
+//
+//int main(void)
+//{
+//	double a = 100.12;
+//	int b;
+//	scanf("%d", &b);
+//	printf("%.2lf * %d = %.lf", a, b, a * b);
+//	return 0;
+//}
+//#include <stdio.h>    /4
+//
+//int main(void)
+//{
+//	int a, b, c;
+//	scanf("%d %d %d", &a, &b, &c);
+//	printf("sum = %d", a + b + c);
+//	return 0;
+//}
+#include <stdio.h>
+
+int main(void)
+{
+	double a, y = 91.44;
+	printf("yard?");
+	scanf("%lf", &a);
+	printf("%.1lfyard = %.1lfcm", a, y * a);
+	return 0;
+}
