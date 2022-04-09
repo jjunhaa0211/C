@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int num1,num2,num3;
+    scanf("%d %d %d",&num1,&num2,&num3);
+    if(num1 <= 170)
+    {
+        printf("CRASH");
+    }
+     else if(num2 <= 170)
+    {
+        printf("CRASH");
+    }
+     else if(num3 <= 170)
+    {
+        printf("CRASH");
+    }
+    else
+    {
+        printf("PASS");
+    }
+    return 0;
+}
