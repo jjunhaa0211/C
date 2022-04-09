@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int a,b;  //a와 b 선언
+    scanf("%d %d",&a,&b);    // n1 과 n2 입력값을 받음
+    for(int i = a; i <= b; i++)  // i에 a을 넣고 i가 b보다 같거나 클 때까지 i = i + 1
+    {
+        if(i % 2 == 1)   // 만약 i가 홀수라면 
+        {
+            printf("%d ",i);  // i를 출력한다.
+        }
+    }
+    return 0;  // 반환값을 0
+}
