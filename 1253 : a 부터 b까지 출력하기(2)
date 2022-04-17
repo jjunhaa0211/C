@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int a,b;
+    int max,min;
+    scanf("%d %d",&a,&b);
+    a > b ? (max = a, min = b) : (min = a, max = b);
+    for(; min <= max; min++)
+    {
+        printf("%d ",min);
+    }
+    return 0;
+}
