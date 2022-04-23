@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int currentTime;
+    int currentPoint;
+    int i = 0;
+    
+    scanf("%d %d",&currentTime,&currentPoint);
+    if(currentTime < 90)
+    {
+        for(i = currentTime; i < 90;i = i + 5)
+        currentPoint = currentPoint + 1;
+    }
+    printf("%d",currentPoint);
+    return 0;
+}
