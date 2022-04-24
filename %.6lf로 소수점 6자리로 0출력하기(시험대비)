@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void)
+{
+    double a,b;
+    printf("두 개의 실수를 입력 : ");
+    scanf("%lf %lf",&a,&b);
+    printf("%.6lf + %.6lf = %.6lf\n",a,b,a+b);
+    printf("%.6lf - %.6lf = %.6lf\n",a,b,a-b);
+    printf("%.6lf * %.6lf = %.6lf\n",a,b,a*b);
+    printf("%.6lf / %.6lf = %.6lf\n",a,b,a/b);
+    return 0;
+}
