@@ -1,0 +1,73 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int a,b,c;
+    int max = 0, middle = 0, min = 0;
+    printf("세 개의 정수를 입력하세요. : ");
+    scanf("%d %d %d",&a,&b,&c);
+    if(a > b)
+    {
+        if(a > c)
+        {
+            max = a;
+            if(b > c)
+            {
+                min = c;
+                middle = b;
+            }
+            else
+            {
+                min = b;
+                middle = c;
+            }
+        }
+        else
+        {
+            max = c;
+            if(b > a)
+            {
+                min = a;
+                middle = b;
+            }
+            else
+            {
+                min = b;
+                middle = a;
+            }
+        }
+    }
+    if(b > a)
+    {
+        if(b > c)
+        {
+            max = b;
+            if(a > c)
+            {
+                min = c;
+                middle = a;
+            }
+            else
+            {
+                min = a;
+                middle = c;
+            }
+        }
+        else
+        {
+            max = c;
+            if(a > b)
+            {
+                min = b;
+                middle = a;
+            }
+            else
+            {
+                min = a;
+                middle = b;
+            }
+        }
+    }
+    printf("두번째로 작은 수는 %d이다.",middle);
+    return 0;
+}
