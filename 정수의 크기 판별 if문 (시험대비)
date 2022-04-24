@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int a;
+    printf("정수 입력 : ");
+    scanf("%d",&a);
+    if(a < 0)
+    {
+        printf("입력 값(%d)은 0보다 작다.",a);
+    }
+    if(a > 0)
+    {
+        printf("입력 값(%d)은 0보다 크다.",a);
+    }
+    if(a == 0)
+    {
+        printf("입력 값은 0이다.");
+    }
+    return 0;
+}
