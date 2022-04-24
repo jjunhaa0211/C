@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int a;
+    printf("나이를 입력하세요. : ");
+    scanf("%d",&a);
+    if(a >= 20)
+    {
+        printf("adult");
+    }
+    else if(a <= 19)
+    {
+        printf("%d years later -> adult",20 - a);
+    }
+    return 0;
+}
