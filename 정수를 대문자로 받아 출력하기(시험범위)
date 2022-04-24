@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int a;
+    printf("아스키코드 값 정수로 입력 : ");
+    scanf("%d",&a);
+    printf("%d의 해당하는 아스키코드 문자는 %C입니다.",a,a);
+    return 0;
+}
