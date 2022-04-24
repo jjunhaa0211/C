@@ -1,0 +1,38 @@
+    #include<stdio.h>
+    int main()
+    {
+        int opt; // 연산식 선택을 위한 변수
+        int num1, num2; // 두 개의 정수 저장을 위한 변수
+        int result; // 결과 저장을 위한 변수
+    
+        printf("1. 덧셈 2. 뺄셈 3. 곱셈 4. 나눗셈\n"); // 연산 메뉴
+        printf("연산을 선택하세요. : "); // 연산 입력 안내
+        scanf("%d",&opt);
+    
+        printf("두 개의 정수를 입력하세요. : "); // 정수 입력 안내
+        scanf("%d %d",&num1,&num2);
+    
+        if(opt == 1)
+        {
+            result = num1 + num2;
+            printf("%d",result);
+        }
+        if(opt == 2)
+        {
+            result = num1 - num2;
+            printf("%d",result);
+
+        }
+        if(opt == 3)
+        {
+            result = num1 * num2;
+            printf("%d",result);
+        }
+        if(opt == 4)
+        {
+            result = num1 / num2;
+            printf("%d",result);
+
+        }
+        return 0;
+    }
