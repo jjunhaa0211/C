@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int x1,x2,y1,y2;
+    int count1 = 0;
+    int count2 = 0;
+    printf("x1, y1 좌표 : ");
+    scanf("%d %d",&x1,&y1);
+    
+    printf("x2, y2 좌표 : ");
+    scanf("%d %d",&x2,&y2);
+    
+    for(int i = x1; i < x2; i++)
+    {
+        count1 += 1;
+    }
+    
+    for(int j = y1; j < y2; j++)
+    {
+        count2 += 1;
+    }
+    
+    printf("두 점으로 만들어지는 직사각형의 넒이는 ? %d",count1 * count2);
+    return 0;
+}
