@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int a;
+    printf("공의 위치를 입력하시오. : ");
+    scanf("%d",&a);
+    if((30 <= a && a <= 40) || (60 <= a && 70 <= a))
+    {
+        printf("win");
+    }
+    else
+    {
+        printf("lose");
+    }
+    return 0;
+}
