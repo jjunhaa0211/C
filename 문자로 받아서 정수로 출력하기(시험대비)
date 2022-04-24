@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(void)
+{
+    char a;
+    printf("알파벳 입력 : ");
+    scanf("%s",&a);
+    printf("%C의 해당하는 아스키코드의 값은 %d입니다.",a,a);
+    return 0;
+}
