@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int n,a;
+    char b;
+    scanf("%d %d %c",&n,&a,&b);
+    if(b == 'L')
+    {
+    for(int i = 0; i < n ; i++)
+    {
+        for(int j = 0; j < i; j++)
+        {
+            printf(" ");
+        }
+        for(int k = 0; k < a; k++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+    }
+        else if(b == 'R')
+        {
+            for(int i = 0; i < n ; i++)
+            {
+                for(int j = 0; j < n - i - 1; j++)
+                {
+                    printf(" ");
+                }
+                for(int k = 0; k < a; k++)
+                {
+                    printf("*");
+                }
+                printf("\n");
+            }
+        }
+    return 0;
+}
