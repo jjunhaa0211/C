@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int a,b,c;
+    scanf("%d %d %d",&a,&b,&c);
+    if(c < a + b)
+    {
+        printf("삼각형 O\n");
+    }
+    else{
+        printf("삼각형 X\n");
+    }
+    return 0;
+}
