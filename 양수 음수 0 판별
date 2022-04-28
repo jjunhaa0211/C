@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int n;
+    scanf("%d",&n);
+    if(n == 0)
+    {
+        printf("0이다.\n");
+        return 0;
+    }
+    if(0 < n)
+    {
+        printf("양수\n");
+    }
+    else
+    {
+        printf("음수\n");
+    }
+    if(n % 2 == 0)
+    {
+        printf("짝수\n");
+    }
+    else
+    {
+        printf("홀수\n");
+    }
+    return 0;
+}
