@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int alph = 65;
+    int num;
+    scanf("%d", &num);
+    while (alph <= num) {
+        printf("%C\t",alph);
+        alph++;
+    }
+    return 0;
+}
