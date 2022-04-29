@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void)
+{
+    char a,b;
+    int max = 0;
+    int min = 0;
+    scanf("%c %c",&a,&b);
+    max = a > b ? a : b;
+    min = a < b ? a : b;
+    while (min <= max) {
+        printf("%c\t",min);
+        min++;
+    }
+    return 0;
+}
