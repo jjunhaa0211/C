@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void)
+{
+    double a,b,c;
+    char res;
+    double avg = 0;
+    scanf("%lf %lf %lf",&a,&b,&c);
+    avg = (a + b + c) / 3;
+    printf("당신의 평균 : %.1lf\n",avg);
+    res = avg >= 80.5 ? 'O' : 'X';
+    printf("당신의 결과 : %c\n",res);
+    return 0;
+}
