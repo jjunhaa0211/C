@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int n1,n2;
+    do
+    {
+        printf("두 수가 같을 때까지 반복하는 프로그램\n");
+        printf("num1 : ");
+        scanf("%d",&n1);
+        printf("num2 : ");
+        scanf("%d",&n2);
+    }while(n1 != n2);
+        return 0;
+}
