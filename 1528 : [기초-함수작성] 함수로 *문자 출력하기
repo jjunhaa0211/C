@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+void f(void)
+{
+    printf("%c",'*');
+}
+int main(void)
+{
+    f();
+    return 0;
+}
