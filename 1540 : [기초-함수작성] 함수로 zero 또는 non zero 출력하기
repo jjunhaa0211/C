@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int n;
+
+int zeroAndNonZero(int a)
+{
+    if(a == 0)
+    {
+        printf("zero");
+    }
+    else
+    {
+        printf("non zero");
+    }
+}
+int main(void)
+{
+    scanf("%d",&n);
+    zeroAndNonZero(n);
+    return 0;
+}
