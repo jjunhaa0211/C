@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int n;
+
+int f()
+{
+    switch (n) {
+        case 1:
+        {
+            printf("hello");
+            break;
+        }
+        case 2:
+        {
+            printf("world");
+            break;
+        }
+    }
+}
+int main()
+{
+  scanf("%d", &n);
+  f(n);
+  return 0;
+}
