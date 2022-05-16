@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int n;
+
+
+
+int prime(int a)
+{
+    int i;
+    for (i = 2; ; i++)
+    {
+        if (a / i == 1)
+        {
+            return 1;
+            break;
+        }
+        else if (a % i == 0)
+        {
+            return 0;
+            break;
+        }
+    }
+}
+int main()
+{
+  scanf("%d", &n);
+  if(prime(n)) printf("prime");
+  else printf("composite");
+  return 0;
+}
