@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+long long int n;
+
+
+
+long long int sqrt(long long int a)
+{
+    long long int i = 0;
+    while(i * i < n)
+    {
+        i++;
+    }
+        if(i * i == n)
+        {
+            return i;
+        }
+        else
+        {
+            return i - 1;
+        }
+}
+int main()
+{
+  scanf("%lld", &n);
+  printf("%d\n", sqrt(n));
+  return 0;
+}
