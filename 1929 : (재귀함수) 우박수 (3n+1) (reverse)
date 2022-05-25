@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+void uo(int a)
+{
+    if (a == 1) {
+        printf("1\n");
+        return;
+    }
+    if(a % 2 == 0)
+    {
+        uo(a / 2);
+    }
+    else
+    {
+        uo(3 * a + 1);
+    }
+    printf("%d\n",a);
+}
+int main(void)
+{
+    int n;
+    scanf("%d",&n);
+    uo(n);
+    return 0;
+}
