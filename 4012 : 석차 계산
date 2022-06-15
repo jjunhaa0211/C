@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+struct n {
+    int score;
+    int rank;
+};
+
+int main(void)
+{
+    
+    int n;
+    int cnt = 0;
+    struct n a[200];
+    scanf("%d", &n);
+    for(int i = 0; i < n; i++)
+    {
+        scanf("%d", &a[i].score);
+    }
+    for(int i = 0; i < n; i++)
+    {
+        for(int j = 0; j < n; j++)
+        {
+            if(a[j].score > a[i].score)
+            {
+                cnt = cnt + 1;
+            }
+        }
+        a[i].rank = cnt + 1;
+        cnt = 0;
+    }
+    for(int i = 0; i < n; i++)
+    {
+        printf("%d %d \n",a[i].score,a[i].rank);
+    }
+    return 0;
+}
