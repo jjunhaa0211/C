@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int pleple(int n)
+{
+    int sum = 0;
+    for(int i = 1; i <= n; i++)
+    {
+        sum = sum + i;
+    }
+    return sum;
+}
+
+int main(void)
+{
+    int a;
+    int dohage = 0;
+    scanf("%d",&a);
+    dohage = pleple(a);
+    printf("%d",dohage);
+    return 0;
+}
