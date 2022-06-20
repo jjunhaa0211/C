@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+void galbage(int a)
+{
+    printf("@@@@@@@@@@\n\n");
+}
+
+int main(void)
+{
+    char n;
+    printf("first\n\n");
+    galbage(n);
+    printf("second\n\n");
+    galbage(n);
+    printf("third\n\n");
+    galbage(n);
+    return 0;
+}
