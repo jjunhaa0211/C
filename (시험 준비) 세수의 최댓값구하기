@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+void MAX(int m1, int m2, int m3)
+{
+    if(m1 > m2)
+    {
+        if(m1 > m3)
+        {
+            printf("%d",m1);
+        }
+        else
+        {
+            printf("%d",m3);
+        }
+    }
+    if(m1 < m2)
+    {
+        if(m2 > m3)
+        {
+            printf("%d",m2);
+        }
+        else
+        {
+            printf("%d",m3);
+        }
+    }
+}
+
+int main(void)
+{
+    int a,b,c;
+    scanf("%d %d %d",&a,&b,&c);
+    MAX(a,b,c);
+    return 0;
+}
