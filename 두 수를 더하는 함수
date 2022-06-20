@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int add(int x, int y)
+{
+    return x + y;
+}
+
+int sub(int x, int y)
+{
+    int cha = x - y;
+    if(cha < 0) cha *= -1;
+    return cha;
+}
+
+int main(void)
+{
+    int a,b,sum;
+    scanf("%d %d",&a,&b);
+    
+    sum = add(a,b);
+    printf("두 수의 합 = %d \n",sum);
+    printf("두 수의 차 = %d \n",sub(a, b));
+    
+    return 0;
+}
