@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+struct student {
+    char Name[100];
+    char School[100];
+    int Grade;
+};
+
+int main(void)
+{
+    struct student NSG;
+    scanf("%s %s %d",&NSG.Name,&NSG.School,&NSG.Grade);
+    printf("Name : %s\n",NSG.Name);
+    printf("School : %s\n",NSG.School);
+    printf("Grade : %d\n",NSG.Grade);
+    return 0;
+}
