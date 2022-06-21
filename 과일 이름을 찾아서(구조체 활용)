@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+struct forut{
+    char forutName[100];
+    int price;
+    int count;
+} s1[100] = { 0 };
+
+int main(void)
+{
+    int n;
+    scanf("%d",&n);
+    for(int i = 0; i < n; i++)
+    {
+        printf("과일 가격 개수를 쓰세요\n");
+        scanf("%s %d %d",&s1[i].forutName,&s1[i].price,&s1[i].count);
+    }
+    for (int i = 0; i < n; i++)
+    {
+        printf("%s %d %d\n",s1[i].forutName,s1[i].price,s1[i].count);
+    }
+    return 0;
+}
