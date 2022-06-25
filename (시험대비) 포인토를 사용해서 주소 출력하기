@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int num1 = 20;
+    int num2 = 30;
+    
+    int *pnum1 = &num1;
+    int *pnum2 = &num2;
+    
+    printf("num1 : %9d   &num1 : %p\n", num1,pnum1);
+    printf("num2 : %9d   &num2 : %p\n", num2,pnum2);
+    printf("pnum1 : %p   &pnum1 : %p\n", pnum1, &pnum1);
+    printf("pnum2 : %p   &pnum2 : %p\n", pnum2, &pnum2);
+
+    return 0;
+}
